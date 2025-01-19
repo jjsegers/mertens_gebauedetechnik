@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://mertens-gebaeudetechnik.de',
   integrations: [mdx(), sitemap(), tailwind()],
-  base: '/mertens-gebaeudetechnik/'
+  base: '/'
 });
